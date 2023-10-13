@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background: antiquewhite;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 8px rgba(0,0,0,4);
+    font-family:sans-serif;
+    padding: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+h1{
+    letter-spacing: 1.3px;
+    font-size: 30px;
+}
+#celcius{
+    padding: 10px 0px 10px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#fahrenheit{
+    padding: 10px 0px 10px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#kelvin{
+    padding: 10px 0px 10px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+input{
+    flex: 5;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 6;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 8px 8px 8px;
+}
+.button{
+    padding: 10px 0px 10px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: blanchedalmond;  
+}
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.button button:hover{
+    background-color: rgb(158, 83, 122);
+}
